@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  color: dodgerblue;
+  font-size: 35px;
+}
+
+h2 {
+  text-decoration: underline;
+  color: dodgerblue;
+}
+
+p {
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: right;
+}
+
+span {
+  background: yellow;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+div {
+  background-color: darkolivegreen;
+}
