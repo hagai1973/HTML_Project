@@ -1,0 +1,31 @@
+.container {
+  display: grid;
+  /* 3 rows * 2 cols */
+  grid-template: 100px auto 100px / 30fr 80fr;
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    ". footer";
+  row-gap: 10px;
+  column-gap: 10px;
+  border: 3px solid lightgray;
+  /* justify-content: stretch;
+  justify-items: stretch;
+  align-items: stretch;
+  align-content: stretch; */
+  margin: 5%;
+  height: 100vh;
+}
+
+.box {
+  background-color: gold;
+}
+
+.box-one {
+  background-color: lightgrey;
+  grid-area: header;
+}
+
+.box-four {
+  grid-area: footer;
+}

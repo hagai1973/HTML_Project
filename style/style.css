@@ -7,6 +7,8 @@ h1 {
 }
 
 h2 {
+  text-align: center;
+  margin-top: 10px;
   text-decoration: underline;
   color: dodgerblue;
 }
@@ -24,5 +26,56 @@ span {
 }
 
 div {
+  clear: both;
   background-color: darkolivegreen;
+}
+
+img.classroom {
+  width: 14rem;
+  height: 8rem;
+  float: right;
+  margin-left: 20px;
+  margin-right: 10px;
+  display: block;
+}
+
+.tweet {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  border: 3px solid lightgray;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex-basis: 15rem;
+  flex-shrink: 1;
+  width: 5rem;
+  height: 5rem;
+  background-color: goldenrod;
+  border-bottom: 1px dashed grey;
+  margin: 1rem;
+}
+
+.box-one {
+  flex-shrink: 0;
 }
