@@ -6,6 +6,20 @@ h1 {
   font-size: 35px;
 }
 
+.all-images {
+  width: 400px;
+  height: 350px;
+}
+
+.image1 {
+  border: green 10px solid;
+}
+
+.image2 {
+  border: blue 10px dashed;
+}
+
+/* 
 h2 {
   text-align: center;
   margin-top: 10px;
@@ -78,4 +92,4 @@ img.classroom {
 
 .box-one {
   flex-shrink: 0;
-}
+} */
