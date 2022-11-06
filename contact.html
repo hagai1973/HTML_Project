@@ -5,12 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" href="img/home.png" />
     <title>Contact Us</title>
   </head>
   <body>
-    <h1 class="titles">Contact Us</h1>
     <div class="container">
-      <a class="links" href="index.html">Home</a>
+      <nav>
+        <a href="index.html">Home</a> | <a href="about.html">About</a> |
+        <a href="contact.html">Contact Us</a>
+      </nav>
     </div>
+    <h1 class="titles">Contact Us</h1>
+    <form action="/my-handling-form-page" method="post">
+      <ul>
+        <li>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" />
+        </li>
+        <li>
+          <label for="mail">E-mail:</label>
+          <input type="email" id="mail" name="user_email" />
+        </li>
+        <li>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" />
+        </li>
+        <li>
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" />
+        </li>
+        <li>
+          <label for="phone">Phone (only numbers):</label>
+          <input type="number" id="phone" name="phone" />
+        </li>
+        <li>
+          <label for="msg">Message:</label>
+          <textarea id="msg" name="user_message"></textarea>
+        </li>
+        <li class="button">
+          <div class="button-container">
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+          </div>
+        </li>
+      </ul>
+    </form>
   </body>
 </html>
