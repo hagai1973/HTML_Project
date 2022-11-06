@@ -19,6 +19,21 @@ h1 {
   border: blue 10px dashed;
 }
 
+.h2_a1 {
+  color: lightgreen;
+  font-weight: bold;
+}
+
+.h2_a2 {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.small_img {
+  width: 100px;
+  height: 100px;
+}
+
 /* 
 h2 {
   text-align: center;
