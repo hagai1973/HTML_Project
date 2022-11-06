@@ -1,0 +1,119 @@
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  color: dodgerblue;
+  font-size: 35px;
+}
+
+.all-images {
+  width: 400px;
+  height: 350px;
+}
+
+.image1 {
+  border: green 10px solid;
+}
+
+.image2 {
+  border: blue 10px dashed;
+}
+
+.h2_a1 {
+  color: lightgreen;
+  font-weight: bold;
+}
+
+.h2_a2 {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.small_img {
+  width: 100px;
+  height: 100px;
+}
+
+.center-img {
+  text-align: center;
+}
+
+#arrow_up {
+  display: block;
+  text-align: center;
+}
+
+/* 
+h2 {
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: underline;
+  color: dodgerblue;
+}
+
+p {
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: right;
+}
+
+span {
+  background: yellow;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+div {
+  clear: both;
+  background-color: darkolivegreen;
+}
+
+img.classroom {
+  width: 14rem;
+  height: 8rem;
+  float: right;
+  margin-left: 20px;
+  margin-right: 10px;
+  display: block;
+}
+
+.tweet {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  border: 3px solid lightgray;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex-basis: 15rem;
+  flex-shrink: 1;
+  width: 5rem;
+  height: 5rem;
+  background-color: goldenrod;
+  border-bottom: 1px dashed grey;
+  margin: 1rem;
+}
+
+.box-one {
+  flex-shrink: 0;
+} */ ;

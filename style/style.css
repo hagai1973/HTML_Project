@@ -1,119 +1,42 @@
-h1 {
+#page-title,
+.titles {
+  margin-top: 2px;
   text-align: center;
-  text-decoration: underline;
-  font-weight: bold;
-  color: dodgerblue;
-  font-size: 35px;
+  font-size: 8.5rem;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.all-images {
-  width: 400px;
-  height: 350px;
-}
-
-.image1 {
-  border: green 10px solid;
-}
-
-.image2 {
-  border: blue 10px dashed;
-}
-
-.h2_a1 {
-  color: lightgreen;
-  font-weight: bold;
-}
-
-.h2_a2 {
-  text-decoration: underline;
-  font-style: italic;
-}
-
-.small_img {
-  width: 100px;
-  height: 100px;
-}
-
-.center-img {
-  text-align: center;
-}
-
-#arrow_up {
+.images {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
   display: block;
-  text-align: center;
+  border: solid dodgerblue 3px;
+  padding-top: 1px;
+  margin: 10px auto 10px auto;
 }
 
-/* 
-h2 {
-  text-align: center;
-  margin-top: 10px;
-  text-decoration: underline;
-  color: dodgerblue;
-}
-
-p {
+.links {
+  text-decoration: solid;
+  font-weight: bold;
   font-size: 1.5rem;
-  font-style: italic;
-  text-align: right;
-}
-
-span {
-  background: yellow;
-  font-weight: bold;
-  font-style: oblique;
-}
-
-div {
-  clear: both;
-  background-color: darkolivegreen;
-}
-
-img.classroom {
-  width: 14rem;
-  height: 8rem;
-  float: right;
-  margin-left: 20px;
-  margin-right: 10px;
-  display: block;
-}
-
-.tweet {
-  padding: 10px;
-  border: 1px solid black;
-}
-
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-.clear {
-  clear: both;
+  color: blue;
+  margin: 10px;
+  background-color: aqua;
 }
 
 .container {
-  border: 3px solid lightgray;
-  margin: 5px;
-  padding: 5px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 90vh;
-  flex-wrap: wrap;
+  text-align: center;
+  margin: 30px;
 }
 
-.box {
-  flex-basis: 15rem;
-  flex-shrink: 1;
-  width: 5rem;
-  height: 5rem;
-  background-color: goldenrod;
-  border-bottom: 1px dashed grey;
-  margin: 1rem;
+#arrow {
+  text-align: center;
+  display: block;
+  margin: auto;
 }
 
-.box-one {
-  flex-shrink: 0;
-} */ ;
+#arrow img {
+  width: 50px;
+  height: 50px;
+}
