@@ -34,6 +34,15 @@ h1 {
   height: 100px;
 }
 
+.center-img {
+  text-align: center;
+}
+
+#arrow_up {
+  display: block;
+  text-align: center;
+}
+
 /* 
 h2 {
   text-align: center;
@@ -107,4 +116,4 @@ img.classroom {
 
 .box-one {
   flex-shrink: 0;
-} */
+} */ ;

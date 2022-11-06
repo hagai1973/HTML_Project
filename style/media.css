@@ -1,0 +1,41 @@
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 10rem;
+  width: 40%;
+}
+
+.box {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  background-color: yellow;
+}
+
+.one {
+  color: greenyellow;
+  width: 100%;
+  background-image: url("../img/c1.jpg");
+  background-size: 600px;
+}
+
+.two {
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    flex-direction: row;
+  }
+  /* .two {
+    background: lightgray;
+  } */
+}
